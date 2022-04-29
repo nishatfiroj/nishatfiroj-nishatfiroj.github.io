@@ -9,7 +9,7 @@ export const DesignSystems = () => {
       <h2>Design Systems</h2>
 
       <Grid container spacing={2} justifyContent="center">
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Developing and deploying components">
             <p>
               Across the three iterations of design systems I've worked on, from
@@ -18,7 +18,7 @@ export const DesignSystems = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Critiquing and validating designs">
             <p>
               From building Figma plugins to assist and validate design efforts
@@ -28,7 +28,7 @@ export const DesignSystems = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Documenting implementation and behaviors">
             <p>
               I've documented and audited the design system of most major

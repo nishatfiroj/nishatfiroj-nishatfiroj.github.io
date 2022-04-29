@@ -9,7 +9,7 @@ export const Projects = () => {
       <h2>Projects</h2>
 
       <Grid container spacing={2} justifyContent="center">
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Data Visualization">
             <p>
               I’m building the data visualization library for NCR using a
@@ -19,7 +19,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Creating Theming Algorithms">
             <p>
               Color switching applications and typography exploratory plugins
@@ -28,7 +28,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Hackathons">
             <p>
               I've documented and audited the design system of most major
@@ -37,7 +37,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Building Plugins">
             <p>
               I’ve built Figma plugins to accommodate the changing needs of
@@ -46,7 +46,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="The Gerrymandering App">
             <p>
               I built an educational tool to be used in the classroom, to teach
@@ -56,7 +56,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Gameboy Advanced">
             <p>
               I built a few C++ games, playable on the Gameboy Advanced. One
@@ -66,7 +66,7 @@ export const Projects = () => {
             </p>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card title="Cameroon app">
             <p>
               For my junior design project at my undergrad at Georgia Tech, my
