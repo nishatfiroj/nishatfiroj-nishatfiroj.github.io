@@ -1,4 +1,3 @@
-import React from "react";
 import { Grid } from "@mui/material";
 import "../App.css";
 
@@ -15,7 +14,7 @@ export const Intro = () => {
         textAlign: "center",
       }}
     >
-      <h1>Hi! I'm Nishat!</h1>
+      <h1>Hi! I'm Nishat Firoj!</h1>
       <h2>DEVELOPMENT • DESIGN • DOCUMENTATION</h2>
       <h3>
         Developer of design systems and innovater of human-computer

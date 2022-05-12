@@ -1,16 +1,18 @@
-import React from "react";
 import { Grid } from "@mui/material";
-import "../App.css";
-import { Card } from "../components";
+import { Card } from "../../components";
 
 export const DesignSystems = () => {
   return (
-    <Grid container className="section" justifyContent="center">
+    <Grid container justifyContent="center">
       <h2>Design Systems</h2>
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Developing and deploying components">
+          <Card
+            height="250px"
+            title="Developing and deploying components"
+            url="/GrowthAcrossDS"
+          >
             <p>
               Across the three iterations of design systems I've worked on, from
               my time as an intern to a level 2 engineer at NCR, I've tested,
@@ -19,7 +21,7 @@ export const DesignSystems = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Critiquing and validating designs">
+          <Card height="250px" title="Critiquing and validating designs">
             <p>
               From building Figma plugins to assist and validate design efforts
               of my peers to participating in design and accessibility reviews,
@@ -29,7 +31,7 @@ export const DesignSystems = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Documenting implementation and behaviors">
+          <Card height="250px" title="Documenting implementation and behaviors">
             <p>
               I've documented and audited the design system of most major
               companies and have compared them to the NCR design system to

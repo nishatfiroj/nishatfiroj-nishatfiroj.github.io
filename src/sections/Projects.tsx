@@ -10,7 +10,7 @@ export const Projects = () => {
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Data Visualization">
+          <Card height="270px" title="Data Visualization">
             <p>
               I’m building the data visualization library for NCR using a
               combination of D3 and Victory data vis libraries. Our data vis
@@ -20,7 +20,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Creating Theming Algorithms">
+          <Card height="270px" title="Creating Theming Algorithms">
             <p>
               Color switching applications and typography exploratory plugins
               help designers to test their interfaces for the best aesthetic and
@@ -29,7 +29,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Hackathons">
+          <Card height="270px" title="Hackathons">
             <p>
               I've documented and audited the design system of most major
               companies and have compared them to the NCR design system to
@@ -38,7 +38,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Building Plugins">
+          <Card height="270px" title="Building Plugins">
             <p>
               I’ve built Figma plugins to accommodate the changing needs of
               designers, in order to fast track the speed at which they output
@@ -47,7 +47,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="The Gerrymandering App">
+          <Card height="270px" title="The Gerrymandering App">
             <p>
               I built an educational tool to be used in the classroom, to teach
               young students about how gerrymanderying affects their local
@@ -57,7 +57,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Gameboy Advanced">
+          <Card height="270px" title="Gameboy Advanced">
             <p>
               I built a few C++ games, playable on the Gameboy Advanced. One
               game is an adventure game that involves solving different
@@ -67,7 +67,7 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card title="Cameroon app">
+          <Card height="270px" title="Cameroon app">
             <p>
               For my junior design project at my undergrad at Georgia Tech, my
               friends and I built an Android app and companion website to be

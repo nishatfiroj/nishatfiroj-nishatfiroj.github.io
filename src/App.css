@@ -28,7 +28,7 @@
   font-weight: 600;
 }
 
-.container p {
+.container p, ul, li {
   font-family: "Open Sans", sans-serif;
 }
 
