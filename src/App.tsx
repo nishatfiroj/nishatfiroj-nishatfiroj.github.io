@@ -12,7 +12,6 @@ const Home = (
     direction="column"
     className="container"
     spacing={28}
-    padding={8}
   >
     <Grid item>
       <Sections.Intro />

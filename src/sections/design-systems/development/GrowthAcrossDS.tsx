@@ -10,22 +10,21 @@ export const GrowthAcrossDS = () => {
   const Roles = () => (
     <Card height="420px">
       <Grid
-        height="400px"
         direction="column"
         alignItems="space-between"
         spacing={4}
         style={{ position: "relative" }}
       >
         <Grid item container justifyContent="space-evenly">
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3}>
             <p style={{ fontWeight: 800 }}>Intern</p>
             <p>Audit and test React components</p>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3}>
             <p style={{ fontWeight: 800 }}>University Hire</p>
             <p>Build components using StencilJS/React for ground up DS</p>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={3}>
             <p style={{ fontWeight: 800 }}>Engineer II</p>
             <p>Use hooks to reface MUI components for a refaced DS</p>
           </Grid>
@@ -53,7 +52,6 @@ export const GrowthAcrossDS = () => {
   const Nui = () => (
     <Card height="420px">
       <Grid
-        height="400px"
         direction="column"
         alignItems="space-between"
         spacing={4}
@@ -107,7 +105,6 @@ export const GrowthAcrossDS = () => {
   const Alpha = () => (
     <Card height="420px">
       <Grid
-        height="400px"
         direction="column"
         alignItems="space-between"
         spacing={4}
@@ -157,7 +154,6 @@ export const GrowthAcrossDS = () => {
   const DS = () => (
     <Card height="420px">
       <Grid
-        height="400px"
         direction="column"
         alignItems="space-between"
         spacing={4}
@@ -206,7 +202,7 @@ export const GrowthAcrossDS = () => {
   const [element, setElement] = useState<JSX.Element>(<Roles />);
 
   return (
-    <>
+    <Grid padding={8}>
       <div style={{ padding: "1em" }}>
         <Tooltip title="Home">
           <Link to="/" style={{ textDecoration: "none" }}>
@@ -239,34 +235,6 @@ export const GrowthAcrossDS = () => {
           </Grid>
         </Grid>
       </Grid>
-    </>
+    </Grid>
   );
 };
-
-const CardBase = () => (
-  <Grid
-    height="400px"
-    direction="column"
-    alignItems="space-between"
-    spacing={4}
-    style={{ position: "relative" }}
-  >
-    <Grid item>top</Grid>
-    <Grid
-      item
-      container
-      direction="row"
-      style={{
-        position: "absolute",
-        bottom: 0,
-      }}
-    >
-      <Grid item xs={1}>
-        left
-      </Grid>
-      <Grid item xs={1}>
-        right
-      </Grid>
-    </Grid>
-  </Grid>
-);
