@@ -1,7 +1,7 @@
-import React from "react";
-import { Grid } from "@mui/material";
-import "../App.css";
-import { Card } from "../components";
+import React from "react"
+import { Grid } from "@mui/material"
+import "../App.css"
+import { Card } from "../components"
 
 export const Projects = () => {
   return (
@@ -24,7 +24,7 @@ export const Projects = () => {
             <p>
               Color switching applications and typography exploratory plugins
               help designers to test their interfaces for the best aesthetic and
-              accessibility requirements.{" "}
+              accessibility requirements.
             </p>
           </Card>
         </Grid>
@@ -33,7 +33,7 @@ export const Projects = () => {
             <p>
               I've documented and audited the design system of most major
               companies and have compared them to the NCR design system to
-              better understand where our successes and downfalls are.{" "}
+              better understand where our successes and downfalls are.
             </p>
           </Card>
         </Grid>
@@ -78,5 +78,5 @@ export const Projects = () => {
         </Grid>
       </Grid>
     </Grid>
-  );
-};
+  )
+}

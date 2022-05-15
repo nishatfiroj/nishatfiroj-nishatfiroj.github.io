@@ -1,8 +1,8 @@
-import { Grid, Tooltip } from "@mui/material";
-import { Link, Route, Routes } from "react-router-dom";
-import "./App.css";
-import * as Sections from "./sections";
-import { GrowthAcrossDS } from "./sections/design-systems/development";
+import { Grid } from "@mui/material"
+import { Link, Route, Routes } from "react-router-dom"
+import "./App.css"
+import * as Sections from "./sections"
+import { GrowthAcrossDS } from "./sections/design-systems/development"
 
 const Home = (
   <Grid
@@ -26,7 +26,7 @@ const Home = (
       <Sections.Projects />
     </Grid>
   </Grid>
-);
+)
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
         <Route path="GrowthAcrossDS" element={<GrowthAcrossDS />} />
       </Routes>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,16 +1,16 @@
-import React from "react";
-import type { FC } from "react";
-import { Grid, Paper } from "@mui/material";
-import "../App.css";
-import { ChevronRight } from "@mui/icons-material";
-import { NavLink } from "react-router-dom";
+import React from "react"
+import type { FC } from "react"
+import { Grid, Paper } from "@mui/material"
+import "../App.css"
+import { ChevronRight } from "@mui/icons-material"
+import { NavLink } from "react-router-dom"
 
 export const Card: FC<{
-  title?: string;
-  height?: string;
-  width?: string;
-  url?: string;
-  children: any;
+  title?: string
+  height?: string
+  width?: string
+  url?: string
+  children: any
 }> = ({
   title = "",
   children = "Card",
@@ -18,7 +18,7 @@ export const Card: FC<{
   width = "auto",
   url = undefined,
 }) => {
-  const red = { border: "1px solid red" };
+  const red = { border: "1px solid red" }
 
   return (
     <Paper
@@ -47,5 +47,5 @@ export const Card: FC<{
         </Grid>
       </Grid>
     </Paper>
-  );
-};
+  )
+}

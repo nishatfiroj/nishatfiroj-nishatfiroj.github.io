@@ -1,5 +1,5 @@
-import { Grid } from "@mui/material";
-import "../App.css";
+import { Grid } from "@mui/material"
+import "../App.css"
 
 export const Intro = () => {
   return (
@@ -21,5 +21,5 @@ export const Intro = () => {
         interactions.
       </h3>
     </Grid>
-  );
-};
+  )
+}

@@ -1,7 +1,7 @@
-import React from "react";
-import { Grid } from "@mui/material";
-import { Card } from "../components";
-import "../App.css";
+import React from "react"
+import { Grid } from "@mui/material"
+import { Card } from "../components"
+import "../App.css"
 
 export const WhatIDo = () => {
   return (
@@ -25,5 +25,5 @@ export const WhatIDo = () => {
         </h3>
       </Grid>
     </Card>
-  );
-};
+  )
+}

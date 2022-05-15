@@ -1,5 +1,5 @@
-import { Grid } from "@mui/material";
-import { Card } from "../../components";
+import { Grid } from "@mui/material"
+import { Card } from "../../components"
 
 export const DesignSystems = () => {
   return (
@@ -41,5 +41,5 @@ export const DesignSystems = () => {
         </Grid>
       </Grid>
     </Grid>
-  );
-};
+  )
+}

@@ -7,6 +7,7 @@
 .container {
   color: #1a1a1a;
   font-family: "Poppins", sans-serif;
+  padding: 1em;
 }
 
 .container h1 {
