@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import { Dot } from "../../../assets"
 import { Developer, Designer, TypesAndIcons } from "."
 
-export const DesignCollabs = () => {
+export const Design = () => {
   const cards: CardBase[] = [
     { title: "The Developer", card: <Developer /> },
     { title: "Perspectives", card: <Designer /> },

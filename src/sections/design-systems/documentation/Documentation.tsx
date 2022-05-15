@@ -3,13 +3,12 @@ import { Grid, Tooltip } from "@mui/material"
 import { Card, CarouselCard, CardBase } from "../../../components"
 import { Link } from "react-router-dom"
 import { Dot } from "../../../assets"
-import { Developer, Designer, TypesAndIcons } from "."
+import { DS, Experience } from "."
 
-export const DesignCollabs = () => {
+export const Documentation = () => {
   const cards: CardBase[] = [
-    { title: "The Developer", card: <Developer /> },
-    { title: "Perspectives", card: <Designer /> },
-    { title: "Types & icons", card: <TypesAndIcons /> },
+    { title: "Experience", card: <Experience /> },
+    { title: "Design Systems", card: <DS /> },
   ]
 
   return (

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import { Dot } from "../../../assets"
 import { Roles, Nui, Alpha, DS } from "."
 
-export const GrowthAcrossDS = () => {
+export const Development = () => {
   const cards: CardBase[] = [
     { title: "Across Three DS's", card: <Roles /> },
     { title: "DS 1: NUI", card: <Nui /> },

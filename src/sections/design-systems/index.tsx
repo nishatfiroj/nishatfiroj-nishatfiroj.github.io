@@ -11,7 +11,7 @@ export const DesignSystems = () => {
           <Card
             height="250px"
             title="Developing and deploying components"
-            url="/GrowthAcrossDS"
+            url="/Development"
           >
             <p>
               Across the three iterations of design systems I've worked on, from
@@ -24,7 +24,7 @@ export const DesignSystems = () => {
           <Card
             height="250px"
             title="Critiquing and validating designs"
-            url="/DesignCollabs"
+            url="/Design"
           >
             <p>
               From building Figma plugins to assist and validate design efforts
@@ -35,11 +35,15 @@ export const DesignSystems = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card height="250px" title="Documenting implementation and behaviors">
+          <Card
+            height="250px"
+            title="Documenting implementation and behaviors"
+            url="/Documentation"
+          >
             <p>
               I've documented and audited the design system of most major
               companies and have compared them to the NCR design system to
-              better understand where our successes and downfalls are.{" "}
+              better understand where our successes and downfalls are.
             </p>
           </Card>
         </Grid>

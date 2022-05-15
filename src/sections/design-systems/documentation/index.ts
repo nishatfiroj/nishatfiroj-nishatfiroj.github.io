@@ -1,4 +1,3 @@
-export {DesignCollabs} from './DesignCollabs'
-export {Developer} from './Developer'
-export {Designer} from './Designer'
-export {TypesAndIcons} from './TypesAndIcons'
+export {Documentation} from './Documentation'
+export {DS} from './DS'
+export {Experience} from './Experience'
