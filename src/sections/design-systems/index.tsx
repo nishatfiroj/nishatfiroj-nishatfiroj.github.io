@@ -21,7 +21,11 @@ export const DesignSystems = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card height="250px" title="Critiquing and validating designs">
+          <Card
+            height="250px"
+            title="Critiquing and validating designs"
+            url="/DesignCollabs"
+          >
             <p>
               From building Figma plugins to assist and validate design efforts
               of my peers to participating in design and accessibility reviews,

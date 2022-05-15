@@ -18,8 +18,6 @@ export const Card: FC<{
   width = "auto",
   url = undefined,
 }) => {
-  const red = { border: "1px solid red" }
-
   return (
     <Paper
       elevation={0}
@@ -38,7 +36,7 @@ export const Card: FC<{
             <>{children}</>
           </Grid>
         </Grid>
-        <Grid item container justifyContent="right">
+        <Grid item container justifyContent="right" padding="1em 0">
           {url && (
             <NavLink to={url}>
               <ChevronRight />

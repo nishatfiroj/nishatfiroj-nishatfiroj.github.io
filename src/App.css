@@ -5,9 +5,9 @@
 }
 
 .container {
+  padding: 2em;
   color: #1a1a1a;
   font-family: "Poppins", sans-serif;
-  padding: 1em;
 }
 
 .container h1 {
@@ -29,7 +29,8 @@
   font-weight: 600;
 }
 
-.container p, ul, li {
+.container p,
+ul,
+li {
   font-family: "Open Sans", sans-serif;
 }
-

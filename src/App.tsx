@@ -1,7 +1,8 @@
 import { Grid } from "@mui/material"
-import { Link, Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import "./App.css"
 import * as Sections from "./sections"
+import { DesignCollabs } from "./sections/design-systems/design"
 import { GrowthAcrossDS } from "./sections/design-systems/development"
 
 const Home = (
@@ -34,6 +35,7 @@ function App() {
       <Routes>
         <Route path="/" element={Home} />
         <Route path="GrowthAcrossDS" element={<GrowthAcrossDS />} />
+        <Route path="DesignCollabs" element={<DesignCollabs />} />
       </Routes>
     </>
   )
