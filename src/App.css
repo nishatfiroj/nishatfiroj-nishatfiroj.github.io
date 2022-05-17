@@ -29,6 +29,10 @@
   font-weight: 600;
 }
 
+.container h6 {
+  font-weight: 400;
+}
+
 .container p,
 ul,
 li {
