@@ -7,7 +7,7 @@ import { Roles, Nui, Alpha, DS } from "."
 
 export const Development = () => {
   const cards: CardBase[] = [
-    { title: "Across Three DS's", card: <Roles /> },
+    { title: "Three DS's", card: <Roles /> },
     { title: "DS 1: NUI", card: <Nui /> },
     { title: "DS 2: Alpha", card: <Alpha /> },
     { title: "DS 3: DS", card: <DS /> },

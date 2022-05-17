@@ -1,0 +1,33 @@
+.border-glow:hover {
+  border: 1px solid #ff005c;
+  animation: 4s infinite glow;
+}
+
+@keyframes glow {
+  0% {
+    border-color: #ff9900;
+  }
+  25% {
+    border-color: #ff005c;
+  }
+  75% {
+    border-color: #7000ff;
+  }
+  100% {
+    border-color: #00c2ff;
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    border-color: #ff9900;
+  }
+  25% {
+    border-color: #ff005c;
+  }
+  75% {
+    border-color: #7000ff;
+  }
+  100% {
+    border-color: #00c2ff;
+  }
+}

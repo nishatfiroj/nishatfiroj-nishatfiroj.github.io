@@ -5,7 +5,7 @@ import "../App.css"
 
 export const WhatIDo = () => {
   return (
-    <Card>
+    <Card gradient>
       <Grid
         container
         alignItems="center"

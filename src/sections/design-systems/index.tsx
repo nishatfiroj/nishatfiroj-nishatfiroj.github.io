@@ -9,6 +9,7 @@ export const DesignSystems = () => {
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            gradient
             height="250px"
             title="Developing and deploying components"
             url="/Development"
@@ -22,6 +23,7 @@ export const DesignSystems = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            gradient
             height="250px"
             title="Critiquing and validating designs"
             url="/Design"
@@ -36,6 +38,7 @@ export const DesignSystems = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            gradient
             height="250px"
             title="Documenting implementation and behaviors"
             url="/Documentation"
