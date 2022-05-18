@@ -13,7 +13,7 @@ const Home = (
     justifyContent="center"
     direction="column"
     className="container"
-    spacing={28}
+    spacing={20}
   >
     <Grid item>
       <Sections.Intro />
