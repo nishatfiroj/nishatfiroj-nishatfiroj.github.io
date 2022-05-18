@@ -18,9 +18,9 @@ export const Projects = () => {
               charts and designs need to reflect the data analysis needs of our
               white-labeled customers while also being accessible and robust.
             </p>
-            <h6 style={{ paddingTop: "4em" }}>
-              *Due to the internal nature of this corporate project, I cannot
-              share the repo url.
+            <h6 style={{ paddingTop: "2em" }}>
+              *Due to the internal nature of this corporate project, the repo
+              URL cannot be provided.
             </h6>
           </Card>
         </Grid>
@@ -60,9 +60,9 @@ export const Projects = () => {
               designs.
             </p>
 
-            <h6 style={{ paddingTop: "4em" }}>
-              *Due to the internal nature of this corporate project, I cannot
-              share the repo url.
+            <h6 style={{ paddingTop: "2em" }}>
+              *Due to the internal nature of this corporate project, the repo
+              URL cannot be provided.
             </h6>
           </Card>
         </Grid>
