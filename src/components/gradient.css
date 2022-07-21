@@ -5,29 +5,46 @@
 
 @keyframes glow {
   0% {
-    border-color: #ff9900;
+    border-color: #ff6200;
+    background-color: #ff620008;
+    color: #3a1600;
   }
   25% {
-    border-color: #ff005c;
+    border-color: #00c2ff;
+    background-color: #00c2ff08;
+    color: #003a4c;
   }
   75% {
     border-color: #7000ff;
+    background-color: #7000ff08;
+    color: #21004c;
   }
   100% {
-    border-color: #00c2ff;
+    border-color: #ff005c;
+    background-color: #ff005c08;
+    color: #530020;
   }
 }
+
 @-webkit-keyframes glow {
   0% {
-    border-color: #ff9900;
+    border-color: #ff6200;
+    background-color: #ff620008;
+    color: #3a1600;
   }
   25% {
-    border-color: #ff005c;
+    border-color: #00c2ff;
+    background-color: #00c2ff08;
+    color: #003a4c;
   }
   75% {
     border-color: #7000ff;
+    background-color: #7000ff08;
+    color: #21004c;
   }
   100% {
-    border-color: #00c2ff;
+    border-color: #ff005c;
+    background-color: #ff005c08;
+    color: #530020;
   }
 }

@@ -1,27 +1,21 @@
 import React from "react"
-import { Button, Grid } from "@mui/material"
+import { Grid, Typography } from "@mui/material"
 import "../../App.css"
 import { Card } from "../../components"
-import { GitHub } from "@mui/icons-material"
 
 export const Projects = () => {
   return (
     <Grid container className="section" justifyContent="center">
       <h2>Projects</h2>
-
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
-          <Card gradient height="320px" title="Data Visualization">
+          <Card gradient height="320px" title="Data Visualization*">
             <p>
               I’m building the data visualization library for NCR using a
               combination of D3 and Victory data vis libraries. Our data vis
               charts and designs need to reflect the data analysis needs of our
               white-labeled customers while also being accessible and robust.
             </p>
-            <h6 style={{ paddingTop: "2em" }}>
-              *Due to the internal nature of this corporate project, the repo
-              URL cannot be provided.
-            </h6>
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
@@ -53,17 +47,12 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card gradient height="320px" title="Building Plugins">
+          <Card gradient height="320px" title="Building Plugins*">
             <p>
               I’ve built Figma plugins to accommodate the changing needs of
               designers, in order to fast track the speed at which they output
               designs.
             </p>
-
-            <h6 style={{ paddingTop: "2em" }}>
-              *Due to the internal nature of this corporate project, the repo
-              URL cannot be provided.
-            </h6>
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
@@ -112,6 +101,10 @@ export const Projects = () => {
           </Card>
         </Grid>
       </Grid>
+      <Typography variant="subtitle2" paddingTop="4em">
+        *Due to the internal nature of this corporate project, the repo URL
+        cannot be provided
+      </Typography>
     </Grid>
   )
 }

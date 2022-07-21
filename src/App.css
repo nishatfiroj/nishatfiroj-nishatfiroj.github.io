@@ -4,6 +4,15 @@
   }
 }
 
+@media only screen and (min-width: 1120px) {
+  .container {
+    max-width: 1120px;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+  }
+}
+
 .container {
   padding: 2em;
   color: #1a1a1a;

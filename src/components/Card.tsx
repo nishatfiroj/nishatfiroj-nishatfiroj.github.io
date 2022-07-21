@@ -49,7 +49,7 @@ export const Card: FC<{
         <Grid item container justifyContent="right" padding="1em 0">
           {url && (
             <NavLink to={url}>
-              <ChevronRight />
+              <ChevronRight style={{ color: "#1a1a1a" }} />
             </NavLink>
           )}
           {github && (
