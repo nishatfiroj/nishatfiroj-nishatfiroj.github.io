@@ -14,6 +14,7 @@ export const Card: FC<{
   github?: string
   gradient?: boolean
   children: any
+  icon?: any
 }> = ({
   title = "",
   children = "Card",
@@ -22,6 +23,7 @@ export const Card: FC<{
   gradient = false,
   github = undefined,
   url = undefined,
+  icon = undefined,
 }) => {
   return (
     <div
@@ -40,9 +42,19 @@ export const Card: FC<{
         justifyContent="space-between"
         minHeight={height}
       >
-        <Grid item container>
-          <Grid item>{title !== "" && <h3>{title}</h3>}</Grid>
+        <Grid container item>
+          <Grid
+            item
+            container
+            justifyContent="center"
+            alignItems="center"
+            paddingTop={1}
+            paddingBottom={3}
+          >
+            {icon !== undefined && icon}
+          </Grid>
           <Grid item>
+            {title !== "" && <h3 style={{ marginBottom: "-10px" }}>{title}</h3>}
             <>{children}</>
           </Grid>
         </Grid>

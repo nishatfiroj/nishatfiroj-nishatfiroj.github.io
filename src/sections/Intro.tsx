@@ -2,6 +2,9 @@ import { Grid } from "@mui/material"
 import "../App.css"
 
 export const Intro = () => {
+  const test = () => {
+    console.log("test")
+  }
   return (
     <Grid
       container

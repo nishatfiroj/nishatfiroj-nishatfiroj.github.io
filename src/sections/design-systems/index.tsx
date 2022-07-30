@@ -1,14 +1,20 @@
 import { Grid } from "@mui/material"
 import { Card } from "../../components"
+import LaptopMacIcon from "@mui/icons-material/LaptopMac"
+import DesignServicesIcon from "@mui/icons-material/DesignServices"
+import ArticleIcon from "@mui/icons-material/Article"
 
 export const DesignSystems = () => {
   return (
     <Grid container justifyContent="center">
-      <h2>Design Systems</h2>
+      <Grid item padding={2}>
+        <h2>Design Systems</h2>
+      </Grid>
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<LaptopMacIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
             height="250px"
             title="Developing and deploying components"
@@ -24,6 +30,7 @@ export const DesignSystems = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card
             gradient
+            icon={<DesignServicesIcon fontSize="large" sx={{ fontSize: 52 }} />}
             height="250px"
             title="Critiquing and validating designs"
             url="/Design"
@@ -39,6 +46,7 @@ export const DesignSystems = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Card
             gradient
+            icon={<ArticleIcon fontSize="large" sx={{ fontSize: 52 }} />}
             height="250px"
             title="Documenting implementation and behaviors"
             url="/Documentation"

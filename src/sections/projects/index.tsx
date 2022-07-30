@@ -3,13 +3,29 @@ import { Grid, Typography } from "@mui/material"
 import "../../App.css"
 import { Card } from "../../components"
 
+// ICONS
+import SsidChartIcon from "@mui/icons-material/SsidChart"
+import PaletteIcon from "@mui/icons-material/Palette"
+import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard"
+import ExtensionIcon from "@mui/icons-material/Extension"
+import SchoolIcon from "@mui/icons-material/School"
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports"
+import AdbIcon from "@mui/icons-material/Adb"
+
 export const Projects = () => {
   return (
     <Grid container className="section" justifyContent="center">
-      <h2>Projects</h2>
+      <Grid item padding={2}>
+        <h2>Projects</h2>
+      </Grid>
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
-          <Card gradient height="320px" title="Data Visualization*">
+          <Card
+            icon={<SsidChartIcon fontSize="large" sx={{ fontSize: 52 }} />}
+            gradient
+            height="320px"
+            title="Data Visualization*"
+          >
             <p>
               I’m building the data visualization library for NCR using a
               combination of D3 and Victory data vis libraries. Our data vis
@@ -20,6 +36,7 @@ export const Projects = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<PaletteIcon fontSize="large" sx={{ fontSize: 52 }} />}
             github="https://github.com/nf185048/ColorExploration"
             gradient
             height="320px"
@@ -34,6 +51,7 @@ export const Projects = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<DeveloperBoardIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
             height="320px"
             title="Hackathons"
@@ -47,7 +65,12 @@ export const Projects = () => {
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <Card gradient height="320px" title="Building Plugins*">
+          <Card
+            icon={<ExtensionIcon fontSize="large" sx={{ fontSize: 52 }} />}
+            gradient
+            height="320px"
+            title="Building Plugins*"
+          >
             <p>
               I’ve built Figma plugins to accommodate the changing needs of
               designers, in order to fast track the speed at which they output
@@ -57,6 +80,7 @@ export const Projects = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<SchoolIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
             height="320px"
             title="The Gerrymandering App"
@@ -72,6 +96,7 @@ export const Projects = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<SportsEsportsIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
             height="320px"
             title="Gameboy Advanced"
@@ -87,6 +112,7 @@ export const Projects = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card
+            icon={<AdbIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
             height="320px"
             title="Cameroon app"
