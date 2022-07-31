@@ -1,9 +1,8 @@
 import "../../../App.css"
-import { Grid, Tooltip } from "@mui/material"
+import { Grid } from "@mui/material"
 import { Card, CarouselCard, CardBase } from "../../../components"
-import { Link } from "react-router-dom"
-import { Dot } from "../../../assets"
-import { DS, Experience } from "."
+import { DS } from "./DS"
+import { Experience } from "./Experience"
 
 export const Documentation = () => {
   const cards: CardBase[] = [
@@ -13,18 +12,9 @@ export const Documentation = () => {
 
   return (
     <Grid>
-      <div style={{ padding: "1em" }}>
-        <Tooltip title="Home">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <Dot />
-          </Link>
-        </Tooltip>
-      </div>
       <Grid className="container" container justifyContent="center">
-        <h2>Design Collabs</h2>
-
         <Grid container spacing={2} justifyContent="center">
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4}>
             <Card height="420px" title="Developing and deploying components">
               <p>
                 From building Figma plugins to assist and validate design
@@ -34,14 +24,7 @@ export const Documentation = () => {
               </p>
             </Card>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={8}
-            md={6}
-            justifyContent="center"
-            alignItems="center"
-          >
+          <Grid item xs={12} sm={8} justifyContent="center" alignItems="center">
             <CarouselCard height="420px" cards={cards}></CarouselCard>
           </Grid>
         </Grid>

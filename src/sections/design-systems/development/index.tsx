@@ -1,9 +1,10 @@
 import "../../../App.css"
-import { Grid, Tooltip } from "@mui/material"
+import { Grid } from "@mui/material"
 import { Card, CarouselCard, CardBase } from "../../../components"
-import { Link } from "react-router-dom"
-import { Dot } from "../../../assets"
-import { Roles, Nui, Alpha, DS } from "."
+import { Roles } from "./Roles"
+import { Nui } from "./Nui"
+import { Alpha } from "./Alpha"
+import { DS } from "./DS"
 
 export const Development = () => {
   const cards: CardBase[] = [
@@ -15,18 +16,9 @@ export const Development = () => {
 
   return (
     <Grid>
-      <div style={{ padding: "1em" }}>
-        <Tooltip title="Home">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <Dot />
-          </Link>
-        </Tooltip>
-      </div>
       <Grid className="container" container justifyContent="center">
-        <h2>Design Systems</h2>
-
         <Grid container spacing={2} justifyContent="center">
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Card height="420px" title="Developing and deploying components">
               <p>
                 Across the three iterations of design systems I've worked on,
@@ -39,7 +31,7 @@ export const Development = () => {
             item
             xs={12}
             sm={8}
-            md={6}
+            md={8}
             justifyContent="center"
             alignItems="center"
           >

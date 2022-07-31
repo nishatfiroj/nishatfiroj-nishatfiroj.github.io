@@ -1,5 +1,4 @@
-
-export { DesignSystems } from './design-systems'
-export { Intro } from './Intro'
-export { Projects } from './projects'
-export { WhatIDo } from './WhatIDo'
+export * from "./about"
+export * from "./skills"
+export * from "./design-systems"
+export * from "./projects"

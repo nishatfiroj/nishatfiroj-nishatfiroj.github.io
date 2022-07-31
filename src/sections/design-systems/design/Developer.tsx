@@ -2,11 +2,11 @@ import { Grid } from "@mui/material"
 
 export const Developer = () => (
   <Grid item container>
-    As one of 5 developers in the design department, and as the only female
-    developer, I have heavy shoes to fill.
+    As one of 4 developers in a UI/UX department of over 100 designers,
+    researchers, and product owners, I have big shoes to fill.
     <ul>
       <li>
-        Scarce developers + massive population of designers = broadened
+        Scarce developers + massive population of non-coding peers = broadened
         expectations of limited developers
       </li>
       <li>

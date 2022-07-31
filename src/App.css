@@ -4,17 +4,11 @@
   }
 }
 
-@media only screen and (min-width: 1120px) {
-  .container {
-    max-width: 1120px;
-    position: absolute;
-    right: 15%;
-    left: 15%;
-  }
+.intro {
+  background-color: #ffb13b;
 }
 
 .container {
-  padding: 2em;
   color: #1a1a1a;
   font-family: "Open Sans", sans-serif;
 }
@@ -42,8 +36,25 @@
   font-weight: 400;
 }
 
+.container b {
+  font-weight: 600;
+}
+
+.container li {
+  padding-bottom: 0.5em;
+}
+
 .container p,
 ul,
 li {
   font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.link:hover {
+  color: white;
 }

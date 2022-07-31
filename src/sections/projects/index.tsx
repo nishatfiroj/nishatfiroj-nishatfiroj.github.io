@@ -14,7 +14,13 @@ import AdbIcon from "@mui/icons-material/Adb"
 
 export const Projects = () => {
   return (
-    <Grid container className="section" justifyContent="center">
+    <Grid
+      padding={4}
+      container
+      alignItems="center"
+      justifyContent="center"
+      direction="row"
+    >
       <Grid item padding={2}>
         <h2>Projects</h2>
       </Grid>

@@ -2,7 +2,6 @@ import React from "react"
 import type { FC } from "react"
 import { Grid, Link } from "@mui/material"
 import "../App.css"
-import "./gradient.css"
 import { ChevronRight, GitHub } from "@mui/icons-material"
 import { NavLink } from "react-router-dom"
 
@@ -20,14 +19,12 @@ export const Card: FC<{
   children = "Card",
   height = "auto",
   width = "auto",
-  gradient = false,
   github = undefined,
   url = undefined,
   icon = undefined,
 }) => {
   return (
     <div
-      {...(gradient && { className: "border-glow" })}
       style={{
         border: "1px solid #1a1a1a",
         borderRadius: "8px",
