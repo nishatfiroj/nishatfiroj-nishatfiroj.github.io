@@ -52,8 +52,8 @@ export const About = () => {
           creative, robust solutions.
         </p>
       </Grid>
-      <Grid item xs={4}>
-        <img src={self} alt="Image of portfolio author" width="300px" />
+      <Grid item xs={4} padding={4}>
+        <img src={self} alt="Portfolio author" width="300px" />
       </Grid>
     </Grid>
   )

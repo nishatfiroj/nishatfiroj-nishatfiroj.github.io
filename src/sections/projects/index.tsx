@@ -14,22 +14,14 @@ import AdbIcon from "@mui/icons-material/Adb"
 
 export const Projects = () => {
   return (
-    <Grid
-      padding={4}
-      container
-      alignItems="center"
-      justifyContent="center"
-      direction="row"
-    >
-      <Grid item padding={2}>
-        <h2>Projects</h2>
-      </Grid>
+    <Grid padding={4} container direction="row">
+      <h2>Projects</h2>
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
           <Card
             icon={<SsidChartIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="Data Visualization*"
           >
             <p>
@@ -45,7 +37,7 @@ export const Projects = () => {
             icon={<PaletteIcon fontSize="large" sx={{ fontSize: 52 }} />}
             github="https://github.com/nf185048/ColorExploration"
             gradient
-            height="320px"
+            height="400px"
             title="Creating Theming Algorithms"
           >
             <p>
@@ -59,7 +51,7 @@ export const Projects = () => {
           <Card
             icon={<DeveloperBoardIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="Hackathons"
             github="https://github.com/nf185048/AccessibilityPassport"
           >
@@ -74,7 +66,7 @@ export const Projects = () => {
           <Card
             icon={<ExtensionIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="Building Plugins*"
           >
             <p>
@@ -88,7 +80,7 @@ export const Projects = () => {
           <Card
             icon={<SchoolIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="The Gerrymandering App"
             github="https://github.com/nishatfiroj/TheGerrymanderingApp"
           >
@@ -104,7 +96,7 @@ export const Projects = () => {
           <Card
             icon={<SportsEsportsIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="Gameboy Advanced"
             github="https://github.com/nishatfiroj/GBA-Dodge-The-Blocks"
           >
@@ -120,7 +112,7 @@ export const Projects = () => {
           <Card
             icon={<AdbIcon fontSize="large" sx={{ fontSize: 52 }} />}
             gradient
-            height="320px"
+            height="400px"
             title="Cameroon app"
             github="https://github.com/nishatfiroj/CameroonSite"
           >

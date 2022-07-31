@@ -5,7 +5,7 @@ import { Card } from "../../components"
 // ICONS
 import CodeIcon from "@mui/icons-material/Code"
 import DataObjectIcon from "@mui/icons-material/DataObject"
-import PsychologyIcon from "@mui/icons-material/Psychology"
+import DataArrayIcon from "@mui/icons-material/DataArray"
 
 export const Skills = () => {
   return (
@@ -146,7 +146,7 @@ export const Skills = () => {
           </Grid>
           <Grid item xs={12} md={4}>
             <Card
-              icon={<PsychologyIcon fontSize="large" sx={{ fontSize: 52 }} />}
+              icon={<DataArrayIcon fontSize="large" sx={{ fontSize: 52 }} />}
               gradient
               title="Concepts and methods"
             >
