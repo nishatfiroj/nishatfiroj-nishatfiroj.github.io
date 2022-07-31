@@ -4,12 +4,26 @@ import "./index.css"
 import App from "./App"
 import reportWebVitals from "./reportWebVitals"
 import { BrowserRouter } from "react-router-dom"
+import { createTheme, ThemeProvider } from "@mui/material"
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#ffb13b",
+    },
+    text: {
+      primary: "#1a1a1a",
+    },
+  },
+})
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 )

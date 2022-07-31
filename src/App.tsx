@@ -1,35 +1,96 @@
-import { Grid, Link } from "@mui/material"
+import { Grid, Button } from "@mui/material"
 import { Route, Routes, Outlet, NavLink } from "react-router-dom"
 import "./App.css"
 import * as Section from "./sections"
 
 // icons
-import GitHubIcon from "@mui/icons-material/GitHub"
-import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import CallMadeIcon from "@mui/icons-material/CallMade"
 
 const Home = () => {
   return (
-    <Grid container padding={4} maxWidth="700px" paddingTop={8}>
-      <Grid className="home" item style={{ textAlign: "center" }}>
-        <h4>
-          Developer of design systems and innovater of human-computer
-          interactions. React enthusiast and prototyping fanatic. Enjoyer of
-          fettuccine pasta.
-        </h4>
-        <br />
-        <p>Navigate to the links below for more about me.</p>
-        <br />
+    <Grid
+      container
+      padding={4}
+      maxWidth="700px"
+      paddingTop={8}
+      spacing={6}
+      direction="column"
+    >
+      <Grid
+        container
+        item
+        className="home"
+        style={{ textAlign: "center", fontSize: 18 }}
+      >
+        Developer of design systems and innovater of human-computer
+        interactions. React enthusiast and prototyping fanatic. Enjoyer of
+        fettuccine pasta.
       </Grid>
-      <Grid container justifyContent="space-evenly">
-        <Link href="https://github.com/nishatfiroj">
-          <GitHubIcon style={{ color: "#1a1a1a" }} sx={{ fontSize: "64px" }} />
-        </Link>
-        <Link href="https://www.linkedin.com/in/nishatfiroj/">
-          <LinkedInIcon
-            style={{ color: "#1a1a1a" }}
-            sx={{ fontSize: "64px" }}
-          />
-        </Link>
+
+      <Grid container item justifyContent="space-evenly" spacing={8}>
+        <Grid xs={4} item style={{ textAlign: "center" }}>
+          <h1>
+            <b>6+</b>
+          </h1>
+          <p>years of coding experience</p>
+        </Grid>
+        <Grid xs={4} item style={{ textAlign: "center" }}>
+          <h1>
+            <b>100k+</b>
+          </h1>
+          <p>custom component insertions</p>
+        </Grid>
+        <Grid xs={4} item style={{ textAlign: "center" }}>
+          <h1>
+            <b>100+</b>
+          </h1>
+          <p>hours of development work saved</p>
+        </Grid>
+      </Grid>
+
+      <Grid container item justifyContent="space-evenly" marginTop={4}>
+        <Button
+          variant="contained"
+          disableElevation
+          sx={{
+            textDecoration: "none",
+            textTransform: "none",
+            color: "white",
+            width: "115px",
+          }}
+          href="https://github.com/nishatfiroj"
+        >
+          <Grid
+            container
+            direction="row"
+            justifyContent="space-between"
+            alignItems="center"
+          >
+            <b>Projects</b>
+            <CallMadeIcon sx={{ fontSize: 16, paddingBottom: "2px" }} />
+          </Grid>
+        </Button>
+        <Button
+          variant="contained"
+          disableElevation
+          sx={{
+            textDecoration: "none",
+            textTransform: "none",
+            color: "white",
+            width: "115px",
+          }}
+          href="https://www.linkedin.com/in/nishatfiroj/"
+        >
+          <Grid
+            container
+            direction="row"
+            justifyContent="space-between"
+            alignItems="center"
+          >
+            <b>Connect</b>
+            <CallMadeIcon sx={{ fontSize: 16, paddingBottom: "2px" }} />
+          </Grid>
+        </Button>
       </Grid>
     </Grid>
   )
