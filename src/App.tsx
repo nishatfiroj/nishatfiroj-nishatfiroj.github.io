@@ -1,4 +1,4 @@
-import { Grid, Button } from "@mui/material"
+import { Grid, Button, ButtonBase } from "@mui/material"
 import { Route, Routes, Outlet, NavLink } from "react-router-dom"
 import "./App.css"
 import * as Section from "./sections"
@@ -115,7 +115,7 @@ function App() {
       >
         <Grid container item direction="column" style={{ textAlign: "center" }}>
           <NavLink to="/" style={{ textDecoration: "none", color: "#1a1a1a" }}>
-            <h1>Hi! I'm Nishat Firoj!</h1>
+            <h1>HI MY NAME IS NISHAT</h1>
           </NavLink>
           <h2>DEVELOPMENT • DESIGN • DOCUMENTATION</h2>
         </Grid>
@@ -130,24 +130,24 @@ function App() {
           paddingBottom={2}
         >
           <Grid item padding={1}>
-            <NavLink className="link" to="/about">
+            <ButtonBase className="link" href="/about">
               About
-            </NavLink>
+            </ButtonBase>
           </Grid>
           <Grid item padding={1}>
-            <NavLink className="link" to="/skills">
+            <ButtonBase className="link" href="/skills">
               Skills
-            </NavLink>
+            </ButtonBase>
           </Grid>
           <Grid item padding={1}>
-            <NavLink className="link" to="/projects">
+            <ButtonBase className="link" href="/projects">
               Projects
-            </NavLink>
+            </ButtonBase>
           </Grid>
           <Grid item padding={1}>
-            <NavLink className="link" to="/design-systems">
+            <ButtonBase className="link" href="/design-systems">
               Design systems
-            </NavLink>
+            </ButtonBase>
           </Grid>
         </Grid>
       </Grid>
