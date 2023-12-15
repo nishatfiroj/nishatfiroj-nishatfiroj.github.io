@@ -22,29 +22,37 @@ const Home = () => {
         className="home"
         style={{ textAlign: "center", fontSize: 18 }}
       >
-        Developer of design systems and innovater of human-computer
-        interactions. React enthusiast and prototyping fanatic. Enjoyer of
+        Bootstrapper of systems and applications, from bottom up. Developer of
+        human-computer interactions. React and NextJS enthusiast. Enjoyer of
         fettuccine pasta.
       </Grid>
 
-      <Grid container item justifyContent="space-evenly" spacing={8}>
+      <Grid container item justifyContent="space-evenly" spacing={4}>
         <Grid xs={4} item style={{ textAlign: "center" }}>
-          <h1>
-            <b>6+</b>
+          <h1 style={{ fontSize: "28px" }}>
+            <b>15+</b>
           </h1>
-          <p>years of coding experience</p>
+          <p style={{ fontSize: "14px" }}>
+            successful runs of Spotify system, with artists boasting millions of
+            listeners
+          </p>
         </Grid>
         <Grid xs={4} item style={{ textAlign: "center" }}>
-          <h1>
+          <h1 style={{ fontSize: "28px" }}>
+            <b>20k+</b>
+          </h1>
+          <p style={{ fontSize: "14px" }}>
+            Spotify premium fans reached via project bootstrapped in 6 months
+          </p>
+        </Grid>
+        <Grid xs={4} item style={{ textAlign: "center" }}>
+          <h1 style={{ fontSize: "28px" }}>
             <b>100k+</b>
           </h1>
-          <p>custom component insertions</p>
-        </Grid>
-        <Grid xs={4} item style={{ textAlign: "center" }}>
-          <h1>
-            <b>100+</b>
-          </h1>
-          <p>hours of development work saved</p>
+          <p style={{ fontSize: "14px" }}>
+            custom component insertions across international retail, finance,
+            and banking POS's
+          </p>
         </Grid>
       </Grid>
 
@@ -104,52 +112,50 @@ function App() {
       alignItems="center"
       justifyContent="center"
     >
-      <Grid
-        container
-        item
-        direction="column"
-        paddingTop={6}
-        paddingLeft={6}
-        paddingRight={6}
-        className="intro"
-      >
-        <Grid container item direction="column" style={{ textAlign: "center" }}>
+      <Grid container item direction="column" className="intro">
+        <Grid
+          container
+          item
+          direction="column"
+          style={{ textAlign: "center" }}
+          padding={2}
+          paddingBottom={4}
+        >
           <NavLink to="/" style={{ textDecoration: "none", color: "#1a1a1a" }}>
-            <h1>HI MY NAME IS NISHAT</h1>
+            <h1>HI I'M NISHAT</h1>
           </NavLink>
           <h2>DEVELOPMENT • DESIGN • DOCUMENTATION</h2>
         </Grid>
 
-        <Grid
-          container
-          justifyContent="space-evenly"
-          alignItems="center"
-          paddingTop={8}
-          paddingRight={8}
-          paddingLeft={8}
-          paddingBottom={2}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "1em",
+            justifyContent: "space-evenly",
+            paddingBottom: "1em",
+          }}
         >
-          <Grid item padding={1}>
-            <ButtonBase className="link" href="/about">
-              About
-            </ButtonBase>
-          </Grid>
-          <Grid item padding={1}>
-            <ButtonBase className="link" href="/skills">
-              Skills
-            </ButtonBase>
-          </Grid>
-          <Grid item padding={1}>
-            <ButtonBase className="link" href="/projects">
-              Projects
-            </ButtonBase>
-          </Grid>
-          <Grid item padding={1}>
-            <ButtonBase className="link" href="/design-systems">
-              Design systems
-            </ButtonBase>
-          </Grid>
-        </Grid>
+          <ButtonBase className="link" href="/about">
+            About
+          </ButtonBase>
+
+          <ButtonBase className="link" href="/skills">
+            Skills
+          </ButtonBase>
+
+          <ButtonBase className="link" href="/projects">
+            Projects
+          </ButtonBase>
+
+          <ButtonBase className="link" href="/design-systems">
+            Design systems
+          </ButtonBase>
+        </div>
+
+        <div style={{ fontSize: "10px", textAlign: "center", color: "brown" }}>
+          **ps! pardon my dust but i'm about to redo this whole website :D**
+        </div>
       </Grid>
 
       <Grid container item direction="column">
