@@ -153,7 +153,14 @@ function App() {
           </ButtonBase>
         </div>
 
-        <div style={{ fontSize: "10px", textAlign: "center", color: "brown" }}>
+        <div
+          style={{
+            fontSize: "10px",
+            textAlign: "center",
+            color: "brown",
+            paddingBottom: "4px",
+          }}
+        >
           **ps! pardon my dust but i'm about to redo this whole website :D**
         </div>
       </Grid>
